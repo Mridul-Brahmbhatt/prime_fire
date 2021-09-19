@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F8F0E3;
+    color: grey;
+}
+.top h1 {
+    font: bold 100px helvetica;
+    color: rgba(115, 3, 219, 0.555);
+    text-align: center;
+    padding-top: 30vh;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3, h4 {
+    color: white;
+}
+/* #02002f  #f8f0e3b7*/
+.showcase {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/WallpaperDog-20468918.jpg') no-repeat center center/cover ;
+}
+.maincase {
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+nav {
+    font-style: normal;
+    background-color: #f8f0e3b7;
+    padding-bottom: 57pt;
+    position: fixed;
+    height: 57pt;
+    width: 100%;
+}
+nav a{
+    font: bold 20px arial;
+    text-decoration: none;
+    color: rgba(88, 88, 88, 0.76);
+    background: rgba(240, 128, 128, 0.404);
+    padding: 20pt;
+    float: left;
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 0;
+}
+nav div {
+    margin-left: 0px;
+}
+nav .signin a{
+    margin-right: 0px;
+    float: left;
+    background-color: rgba(205, 91, 63, 0.795);
+    border-radius: 47px;
+}
+.fixnav2 {
+    height: 57pt;
+    background: rgba(255, 255, 255, 0);
+    float: left;
+    width: 66%;
+}
+.fixnav1{
+
+    float: left;
+}
+nav .fixnav1 a:hover{
+    color: black;
+    background-color: rgba(205, 91, 63, 0.795);
+    border-radius: 5px;
+}
+nav .signin a:hover {
+    color: black;
+    border-radius: 30px;
+}
+nav .fixnav1 a:active{
+    color: white;
+}
+nav .signin a:active{
+    color: white;
+}
+.lower{
+    margin-top: 60pt;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 100%;
+    float: left;
+    width: 40%;
+}
+.lower button{
+    text-decoration: none;
+    padding: 17px;
+    background: rgba(115, 3, 219, 0.555);
+    margin-left: -5px;
+    color: white;
+    font-size: 17px;
+    font-family: helvetica;
+    font-weight: bold;
+    width: 30%;
+    border: 0px;
+}
+.lower input{
+    width: 70%;
+    padding: 19px;
+    border: 0;
+    background: rgba(245, 245, 245, 0.822);
+}
+.lower button:hover{
+    background: rgb(53, 3, 53, 0.555);
+}
+.contain {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 50vh;
+}
+section{
+    margin-left: 20%;
+}
+.contain .text{
+    width: 100%;
+    font-size: 30px;
+}
+.contain .text h1{
+    color: rgb(56, 56, 56);
+}
+.contain img{
+    width: 50%;
+}
+footer .link{
+    padding: 30pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+footer .link a{
+    color: gray;
+    text-decoration: none;
+}
+footer{
+    background: #02002f;
+}
+footer .link a:hover{
+    font-weight: bold;
+}
+.foot {
+    text-align: center;
+    padding: 30pt;
+}
